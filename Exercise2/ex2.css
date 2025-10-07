@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    border: 2px solid #ccc;
+    background-color: beige;
+}
+
+.button {
+    padding: 15px 25px;
+    color: rgb(131, 128, 128);
+    background-color: rgb(205, 172, 237);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}

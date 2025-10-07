@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #ccc;
+    background-color: beige;
+    gap: 10px;
+    height: 300px;
+    padding: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(161, 249, 220);
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}   
