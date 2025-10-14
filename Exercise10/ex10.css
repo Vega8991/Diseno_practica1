@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    gap: 10px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 249, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: rgb(255, 211, 130);
+    position: relative;
+    z-index: 5;
+}
